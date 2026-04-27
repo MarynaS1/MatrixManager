@@ -164,7 +164,6 @@ class Main{
                 if(m.getRows()!=m.getCols()){
                     System.out.println("Matrix must be square, action canceled");
                 }else{
-                    Matrix.matrixList.remove(Matrix.matrixList.indexOf(m));
                     System.out.println("Determinant found:\n"+Matrix.findDeterminant(m));
                 }
                 found = true;

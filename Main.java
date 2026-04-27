@@ -191,6 +191,7 @@ class Main{
           }
           if(!found)System.out.println("Matrix not found, action canceled");
           break;
+
         case "help":
           System.out.println("'create' - create a matrix (automatically saved)"+
                             "\n'delete' - delete a saved matrix"+
@@ -474,5 +475,12 @@ class Matrix{
   public int getRows(){return rows;}
   public int getCols(){return cols;}
   public double getElement(int i,int j){return matrix[i][j];}
-  public void setElement(int i,int j,double element){matrix[i][j]=element;};
+  public void setElement(int i,int j,double element){matrix[i][j]=element;}
+  public void randomSet(){
+    for(int i = 0;i<rows;i++){
+      for(int j = 0;j<cols;j++){
+        matrix[i][j]=(int)(Math.random()*10);
+      }
+    }
+  }
 }

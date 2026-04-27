@@ -1,6 +1,3 @@
-/*TODO:
-*Matrix operations
-*/
 import java.util.Scanner;
 import java.util.ArrayList;
 

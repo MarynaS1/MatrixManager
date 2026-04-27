@@ -380,7 +380,7 @@ class Matrix{
     Matrix c = new Matrix(A.getRows(), A.getCols(),((num==(int)num) ? (int)num:num+"") + A.getName());
     for(int i = 0;i<A.getRows();i++){
         for(int j = 0;j<A.getCols();j++){
-            c.setElement(i, j, A.getElement(i, j)*num);
+            c.setElement(i, j, ((double)Math.round(A.getElement(i, j)*num*10000)/10000));
         }
     }
     return c;
@@ -396,7 +396,7 @@ class Matrix{
             for(int k = 0; k<A.getCols();k++){
                 temp+=A.getElement(i, k)*B.getElement(k, j);
             }
-            C.setElement(i, j, temp);
+            C.setElement(i, j, ((double)Math.round(temp*10000)/10000));
         }
     }
     return C;

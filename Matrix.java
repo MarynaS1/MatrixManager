@@ -34,7 +34,7 @@ public class Matrix{
                 unnamedCount++;
             }
         }
-        if(inputName.equals("")||inputName.contains(",")||inputName.contains(" ")||inputName.contains("(")||inputName.contains(")")){
+        if(inputName.equals("")||inputName.contains(",")||inputName.contains(" ")){
             System.out.println("Name is empty or contains illegal characters");
             inputName="untitled"+unnamedCount;
             System.out.println("Name Changed to "+inputName);

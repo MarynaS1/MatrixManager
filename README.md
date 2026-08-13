@@ -1,4 +1,3 @@
-WIP!
 # MATRIX MANAGER
 Matrix Manager helps perform various actions on matrixes like adding, multiplying, finding derivatives, etc.
 

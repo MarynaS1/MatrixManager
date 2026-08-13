@@ -1,7 +1,7 @@
 # MATRIX MANAGER
-Matrix Manager helps perform various actions on matrixes like adding, multiplying, finding derivatives, etc.
+Matrix Manager helps perform various actions on matrixes like adding, multiplying, finding derivatives, etc. faster than when the same actions are being done by hand.
 
-The goal of this program is to reduce the time and workload required when manipulating matrixes.
+The goal of this program is to reduce the time and workload required when manipulating matrixes in order to make the work less tedious.
 
 ## FUNCTIONALITY/COMMANDS
 #### CREATE
